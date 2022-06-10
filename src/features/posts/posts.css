@@ -1,0 +1,57 @@
+html {
+  background: #333;
+  color: whitesmoke;
+}
+
+.postInput,
+.postTextare,
+.postButton,
+.postSelect {
+  font: inherit;
+  margin-bottom: 1em;
+}
+
+.postMain {
+  max-width: 500px;
+  margin: auto;
+}
+
+.postSection {
+  margin-top: 1em;
+}
+
+.postArticle {
+  margin: 0.5em 0.5em 0.5em 0;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.postP {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  margin: 0.5em 0;
+}
+
+.postForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.postCredit {
+  font-size: 1rem;
+}
+
+.reactionButton {
+  margin: 0 0.25em 0 0;
+  background: transparent;
+  border: none;
+  color: whitesmoke;
+  font-size: 1rem;
+  cursor: pointer;
+}

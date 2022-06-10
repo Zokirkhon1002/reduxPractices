@@ -1,0 +1,30 @@
+.counterBodyMain {
+  display: grid;
+  place-items: center;
+}
+.counterBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counterBtn,
+.counterInput {
+  font: inherit;
+  padding: 0.5rem;
+}
+
+.counterInput {
+  text-align: center;
+  max-width: 2.5em;
+}
+
+.counterBtn {
+  font-size: 2rem;
+  margin: 0.5em 0 0.5em 0.5em;
+  min-width: 2em;
+}
+
+.counterBtn:first-child {
+  margin-left: 0;
+}
